@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <div class="jumbotron">
+      <div id="jumbotron">
         <h1>Perpus</h1>
         <p>
           library or book house, is a collection of books and magazines
@@ -18,9 +18,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="display">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#jumbotron">Home</a></li>
+          <li><a href="#content" >About</a></li>
+          <li><a href="#profile">Contact </a></li>
         </ul>
       </nav>
     </header>
@@ -35,13 +35,61 @@
           <button class="prev-btn" onclick="prev()"><</button>
         </div>
       </div>
-      <aside>
-        
+      <aside id="profile">
+        <h1>Profile Creator</h1>
+        <div class="circle">
+          <a href="mailto:tharixsakbar@gmail.com"><img src="asset/profile.jpg" title="tharixsakbar@gmail.com" ></a>
+        </div>
+       <table>
+          <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td class="item">Tharixs Akbar</td>
+          </tr>
+          <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td  class="item">E41200058</td>
+          </tr>
+          <tr>
+            <td>Prodi</td>
+            <td>:</td>
+            <td  class="item">Teknik Informatika</td>
+          </tr>
+          <tr>
+            <td>Jurusan</td>
+            <td>:</td>
+            <td  class="item">Teknologi Informasi</td>
+          </tr>
+          <tr>
+            <td>Institusi</td>
+            <td>:</td>
+            <td  class="item">POLITEKNIK NEGERI JEMBER</td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td  class="item">Jember</td>
+          </tr>
+          <tr>
+            <td>Interest</td>
+            <td>:</td>
+            <td  class="item">Front End Dev</td>
+          </tr>
+       </table>
       </aside>
+    <!-- modal -->
+    <div id="Modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 class="title"></h1>
+        <p class="desk">
+        </p>
+      </div>
     </main>
     <footer>
       <p>
-        &copy; 2020 Perpus
+        &copy; 2020 Perpus Tharixs Akbar Ibnu Azis
       </p>
   </body>
 </html>
